@@ -27,11 +27,11 @@
     }, false);
 
     // Example for 1000 buttons  
-    /*for (var j=0; j < buttons.length; j++) {
+    /* for (var j=0; j < buttons.length; j++) {
         buttons[j].addEventListener('click', function () {
             popup.classList.toggle('popup_state_visible');
         }, false);
-    }    */
+    } */
 
     for (var i=0; i < closeElements.length; i++) {
         closeElements[i].addEventListener('click', function (e) {
