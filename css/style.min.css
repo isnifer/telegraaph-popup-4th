@@ -1,0 +1,14 @@
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.g-clf:after,.g-clf:before{clear:both;display:table;content:""}
+html,body{height:100%;font:normal 16px "Arial",Verdana,Tahoma}
+.b-page{position:relative;min-height:100%}
+.popup{position:fixed;top:0;right:0;bottom:0;left:0;z-index:9999;display:none;}
+.popup_state_visible{display:block}
+.popup__wrapper{background:rgba(0,0,0,0.8);width:100%;height:100%;position:relative}
+.popup__window{position:absolute;width:500px;height:300px;top:50%;left:50%;margin:-150px 0 0 -250px;background:#fff}
+.popup__content-wrapper{position:relative;padding:5px 10px}
+.popup__cross{position:absolute;top:5px;right:5px;display:block;width:16px;height:16px;background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAFfKj/FAAAAeFBMVEUAAAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABaev+0AAAAJ3RSTlMAADE0PkGhpKitrq+wsbO1tri5uru+v8DDxMXGx8jJysvMzc7P3OJY1kWpAAAAiUlEQVQY0z3OSU4bABTA0PeZUyCFDG0ZQyHg+9+wi4R6acmSzZAZkJwnMzNWr6E1We2d9oi2uK8OQYuesYR35ohFuG0oy94G1c7gshiW/Sxj2ws1fMLT4O7Lkf3OOFtXf2FTfQz8qFY31R8O/y6q7vkW26r6OIpf1QPX1d44uarfh3BRm/m//80/ss4OESnTMyEAAAAASUVORK5CYII=");text-indent:-9999px;position:absolute;cursor:pointer}
+.popup__header{font:bold 2em "Georgia"}
+.popup__text{margin:10px 0 0;}
+.popup__text p{margin:0 0 10px}
+.popup__text a{color:#0093ad}
