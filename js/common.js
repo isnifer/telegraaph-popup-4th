@@ -35,9 +35,10 @@
 
     for (var i=0; i < closeElements.length; i++) {
         closeElements[i].addEventListener('click', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-            popup.classList.toggle('popup_state_visible');
+            if (e.target === this) {
+                e.preventDefault();
+                popup.classList.toggle('popup_state_visible');
+            }
         }, false);
     }
 
