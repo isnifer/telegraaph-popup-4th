@@ -3,3 +3,4 @@
 - now let’s say we have 1000 buttons. How would you do it and why?
 
 ##[Demo](http://kuznetsovanton.ru/projects/telegraaph/4/)##
+##[Demo with 20 buttons](http://kuznetsovanton.ru/projects/telegraaph/4/20.html)##
